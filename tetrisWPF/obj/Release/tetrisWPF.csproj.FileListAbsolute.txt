@@ -1,0 +1,20 @@
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.exe.config
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.exe.manifest
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.application
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.exe
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.pdb
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\mainView.baml
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\optionsView.baml
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\mainView.g.cs
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\optionsView.g.cs
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\App.g.cs
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF_MarkupCompile.cache
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.g.resources
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.Properties.Resources.resources
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.csproj.GenerateResource.Cache
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.exe.manifest
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.application
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.exe
+C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\obj\Release\tetrisWPF.pdb
+\\Mac\Home\Documents\Бауманка + win bonus\Visual Studio 2012 Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.exe.config
+\\Mac\Home\Documents\Visual Studio 2013\Projects\tetrisWPF\tetrisWPF\bin\Release\tetrisWPF.exe.config

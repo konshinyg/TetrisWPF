@@ -1,0 +1,44 @@
+﻿<Window x:Class="tetrisWPF.optionsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize" Height="330" Width="130" WindowStyle="None" MouseLeftButtonDown="options_MouseLeftButtonDown">
+    <Grid Name="mainGrid">
+        <Border Name="generalBorder"
+                Height="auto"
+                Width="auto"
+                BorderBrush="Black"
+                BorderThickness="3"
+                CornerRadius="20,20,20,20">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStopCollection>
+                        <GradientStop Color="Lavender"  Offset="0.0"/>
+                        <GradientStop Color="BurlyWood"  Offset="0.5"/>
+                        <GradientStop Color="Black"  Offset="1.4"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid Name="generalSpace">
+                <Button Content="X" FontFamily="segoe print" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="20" Name="closeOptButton" Click="closeOptButton_Click" />
+                <Grid Name="colorSpace"
+                      Margin="10,190,10,10">
+                    <Border Name="colorBorder"
+                            BorderBrush="Black"
+                            BorderThickness="2">
+                        <Border.Background>
+                            <SolidColorBrush Color="#9e9781"/>
+                        </Border.Background>
+                    </Border>
+                    <Label Name="foneColorLabel" Content="Цвет фигур" FontFamily="segoe print" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="-3,-27,0,0" VerticalAlignment="Top" />
+                    <CheckBox Content="Синий" FontFamily="segoe print" FontSize="12" FontWeight="Bold" Padding="5,-4" Margin="5,10,00,100" Name="blueFone" Click="blueFone_Click"/>
+                    <CheckBox Content="Красный" FontFamily="segoe print" FontSize="12" FontWeight="Bold" Padding="5,-4" Margin="5,40,00,70" Name="redFone" Click="redFone_Click"/>
+                    <CheckBox Content="Зеленый" FontFamily="segoe print" FontSize="12" FontWeight="Bold" Padding="5,-4" Margin="5,70,0,40" Name="greenFone" Click="greenFone_Click" />
+                    <CheckBox Content="Черный" FontFamily="segoe print" FontSize="12" FontWeight="Bold" Padding="5,-4" Margin="5,100,0,10" Name="blackFone" Click="blackFone_Click"/>
+                </Grid>
+                <Label Content="Скорость игры" FontFamily="segoe print" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="5,48,0,0" VerticalAlignment="Top" Name="gameSpeed_label" />
+                <Slider HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Width="100" Name="speedTrackBar" Minimum="0" Maximum="380" Value="0" ValueChanged="speedTrackBar_ValueChanged" />
+                <TextBlock HorizontalAlignment="Left" Margin="10,99,0,0" TextWrapping="Wrap" Text="Медленно" FontFamily="segoe print" FontSize="12" FontWeight="Bold" VerticalAlignment="Top" Name="speedInfo"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

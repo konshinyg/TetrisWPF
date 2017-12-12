@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Solution" Bounds="0,108.02,70.3733333333334,25.96" Label="tetrisWPF" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="528.543333333333,253,138.306666666667,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="copyShapeToFone" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="840.653333333333,164,153.123333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="copyShapeToPreview" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="701.46,-7.105427357601E-15,104.583333333333,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Конструктор" Icon="Microsoft.VisualStudio.Method.Public" Label="background" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="356.33,152,142.213333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="encreaseStepDown" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="366.69,297,121.493333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="foneTurnShape" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@16" Category="CodeSchema_Property" Bounds="881.175,373,72.0799999999999,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Назначение свойства" Icon="Microsoft.VisualStudio.Property.Public" Label="Loose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@17" Category="CodeSchema_Method" Bounds="538.315,120,118.763333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="searchForLines" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@18" Category="CodeSchema_Method" Bounds="704.98,329,97.5433333333335,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="theBottom" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="100.373333333333,108,91.3733333333334,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="tetrisWPF" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="221.746666666667,108,104.583333333333,26" CodeSchemaProperty_IsInternal="True" Icon="Microsoft.VisualStudio.Class.Internal" Label="background" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@8" Category="CodeSchema_Method" Bounds="363.795,209,127.283333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="foneMoveShape" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@9" Category="CodeSchema_Method" Bounds="696.85,88,113.803333333333,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="cleanFullLines" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@3" Category="Contains" Bounds="70.3733367919922,121,21,0" />
+    <Link Source="@11" Target="@18" Category="CodeSchema_Calls" Bounds="624.390258789063,279,94.5763549804688,46.0593872070313" />
+    <Link Source="@13" Target="@12" Category="CodeSchema_Calls" Bounds="776.296997070313,26,125.174987792969,130.916870117188" />
+    <Link Source="@14" Target="@11" Category="CodeSchema_Calls" Bounds="449.351318359375,178,118.690185546875,70.4082336425781" />
+    <Link Source="@14" Target="@12" Category="CodeSchema_Calls" Bounds="498.543334960938,170.011627197266,333.109985351563,6.98837280273438" />
+    <Link Source="@14" Target="@17" Category="CodeSchema_Calls" Bounds="496.208038330078,145.782318115234,33.4786682128906,6.29225158691406" />
+    <Link Source="@15" Target="@11" Category="CodeSchema_Calls" Bounds="477.740753173828,281.251861572266,60.9380798339844,15.7481384277344" />
+    <Link Source="@17" Target="@9" Category="CodeSchema_Calls" Bounds="656.299255371094,114.384147644043,32.181640625,6.59904479980469" />
+    <Link Source="@18" Target="@12" Category="CodeSchema_Calls" Bounds="766.630615234375,196.393661499023,131.371337890625,132.606338500977" />
+    <Link Source="@18" Target="@16" Category="CodeSchema_Calls" Bounds="800.867065429688,354.682220458984,71.6172485351563,19.2774658203125" />
+    <Link Source="@3" Target="@6" Category="Contains" Bounds="191.746673583984,121,21,0" />
+    <Link Source="@6" Target="@11" Category="Contains" Bounds="282.692962646484,134,236.850372314453,132" />
+    <Link Source="@6" Target="@12" Category="Contains" Bounds="305.197357177734,57,592.235260009766,100.718078613281" />
+    <Link Source="@6" Target="@13" Category="Contains" Bounds="287.496795654297,18.1889495849609,404.995330810547,89.8110504150391" />
+    <Link Source="@6" Target="@14" Category="Contains" Bounds="319.360565185547,134,54.1027221679688,15.5185546875" />
+    <Link Source="@6" Target="@15" Category="Contains" Bounds="280.452392578125,134,111.543914794922,159.132202148438" />
+    <Link Source="@6" Target="@16" Category="Contains" Bounds="278.126312255859,134,594.048675537109,252" />
+    <Link Source="@6" Target="@17" Category="Contains" Bounds="326.329986572266,121,203.007293701172,7.1820068359375" />
+    <Link Source="@6" Target="@18" Category="Contains" Bounds="279.335998535156,134,416.670471191406,220" />
+    <Link Source="@6" Target="@8" Category="Contains" Bounds="291.128265380859,134,104.644500732422,70.6811828613281" />
+    <Link Source="@6" Target="@9" Category="Contains" Bounds="326.197784423828,89,361.678680419922,21.1191635131836" />
+    <Link Source="@8" Target="@11" Category="CodeSchema_Calls" Bounds="477.740753173828,235,60.9380798339844,15.7481231689453" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Вызовы" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Вызывается" OutgoingActionLabel="Вызовы" />
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Member" Label="Член" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Члены" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Методы" />
+    <Category Id="CodeSchema_Namespace" Label="Пространство имен" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Пространства имен" />
+    <Category Id="CodeSchema_Property" Label="Свойство" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Свойства" />
+    <Category Id="CodeSchema_Solution" Label="Решение" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Решения" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Типы" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Является конструктором" Description="Флаг, указывающий, что метод является конструктором" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Является Internal" Description="Флаг, указывающий, что метод является Internal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Language" Label="Язык" Description="Язык" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Ранг массива" ValueType="System.String" />
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Родительский тип" ValueType="System.Object" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/tetrisWPF.sln" />
+    <Alias n="2" Id="Namespace=tetrisWPF" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPathUri)" />
+    <Alias n="5" Id="Type=background" />
+    <Alias n="6" Id="(@4 @2 @5)" />
+    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll" />
+    <Alias n="8" Id="(@4 @2 @5 Member=(Name=foneMoveShape OverloadingParameters=[(@7 Namespace=System Type=Char)]))" />
+    <Alias n="9" Id="(@4 @2 @5 Member=(Name=cleanFullLines OverloadingParameters=[(@7 Namespace=System Type=Int32)]))" />
+    <Alias n="10" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/PresentationFramework.dll" />
+    <Alias n="11" Id="(@4 @2 @5 Member=(Name=copyShapeToFone OverloadingParameters=[(@7 Namespace=System Type=Array),(@10 Namespace=System.Windows.Controls Type=(Name=Label ArrayRank=2 ParentType=Label))]))" />
+    <Alias n="12" Id="(@4 @2 @5 Member=(Name=copyShapeToPreview OverloadingParameters=[(@7 Namespace=System Type=Array),(@10 Namespace=System.Windows.Controls Type=(Name=Label ArrayRank=2 ParentType=Label))]))" />
+    <Alias n="13" Id="(@4 @2 @5 Member=(Name=.ctor OverloadingParameters=[(@10 Namespace=System.Windows.Controls Type=Grid),(@10 Namespace=System.Windows.Controls Type=Grid)]))" />
+    <Alias n="14" Id="(@4 @2 @5 Member=encreaseStepDown)" />
+    <Alias n="15" Id="(@4 @2 @5 Member=foneTurnShape)" />
+    <Alias n="16" Id="(@4 @2 @5 Member=Loose)" />
+    <Alias n="17" Id="(@4 @2 @5 Member=searchForLines)" />
+    <Alias n="18" Id="(@4 @2 @5 Member=theBottom)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPath" Value="C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Debug\tetrisWPF.exe" />
+    <Path Id="ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPathUri" Value="file:///C:/Users/Core/documents/visual studio 2012/Projects/tetrisWPF/tetrisWPF/bin/Debug/tetrisWPF.exe" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolution" Value="C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Core/documents/visual studio 2012/Projects/tetrisWPF" />
+  </Paths>
+</DirectedGraph>

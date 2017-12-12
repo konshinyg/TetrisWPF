@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="432.263155314128,66.9754869163513,111.306666666667,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="encreaseStep" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="490.222796630859,236.447478133138,107.35,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="gameReload" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="199.028828772507,26.727855682373,91.3733333333334,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="tetrisWPF" UseManualLocation="True">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="198.016151309221,84.1295704061777,92.4501513866667,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="mainView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category1" />
+      <Category Ref="Category3" />
+    </Node>
+    <Node Id="Background" Bounds="380.690422363281,158.261753491211,108.61,25.96" Label="new background" UseManualLocation="True" />
+    <Node Id="Background1" Category="Category1" Bounds="545.549923366971,9.55960800170899,83.5833333333335,25.96" Label="background" UseManualLocation="True" />
+    <Node Id="Continue?" Bounds="542.998306477865,180.487378133138,71.5733333333333,25.96" Label="continue?" UseManualLocation="True" />
+    <Node Id="ExitApp" Bounds="651.498528238932,180.207420603434,62.2566666666667,25.96" Label="exit app" UseManualLocation="True" />
+    <Node Id="InscreaseStepDown" Bounds="659.133256700304,7.71569396972654,122.936666666666,25.96" Label="inscreaseStepDown" UseManualLocation="True" />
+    <Node Id="Loose" Category="Category1" Bounds="530.248501180013,124.247320603434,95.3800000000001,25.96" Label="Loose == true" UseManualLocation="True" />
+    <Node Id="MainTimer" Bounds="323.916200492029,68.5407838764812,76.1199999999999,25.96" Label="mainTimer" UseManualLocation="True" />
+    <Node Id="MainViw_Initialized" Bounds="220.193068547404,155.751256283667,126.983333333333,25.96" Label="mainView_Initialized" UseManualLocation="True" />
+    <Node Id="Op" Bounds="229.718607279459,217.41367626586,110.306666666667,25.96" Label="new optionsView" UseManualLocation="True" />
+    <Node Id="Score.Text" Bounds="442.696590033637,11.0153889846802,72.8533333333335,25.96" Label="score.Text" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="Background1" Bounds="510.420317191497,40.0215343446683,46.6589646661096,26.9539447813083" />
+    <Link Source="@10" Target="Loose" Bounds="508.357522646577,92.9754791259766,41.5771214841932,26.4420568348775" />
+    <Link Source="@10" Target="Score.Text" Bounds="482.558709452054,45.8663713663771,3.31577891994471,21.1091077595994" />
+    <Link Source="@12" Target="Background" Bounds="460.380516405643,189.47146591454,65.4146321370009,46.9760122185982" />
+    <Link Source="@12" Target="Op" Bounds="349.001022827575,235.110971497195,141.221773803285,10.3882011885635" />
+    <Link Source="@3" Target="@6" Category="Contains" Bounds="244.38343539673,52.727855682373,0.2101243576125,22.4021102006085" />
+    <Link Source="@6" Target="MainViw_Initialized" Bounds="251.402588503486,110.129570007324,20.7892443180244,37.7386542589394" />
+    <Link Source="Background1" Target="InscreaseStepDown" Bounds="629.133256700304,21.6707499519974,21.0008614535733,0.290588196893012" />
+    <Link Source="Continue?" Target="@12" Bounds="556.759620865129,206.447376708984,13.9361289552496,22.361968088955" />
+    <Link Source="Continue?" Target="ExitApp" Bounds="614.571639811198,193.295605873711,27.9269211350484,0.0752905421824721" />
+    <Link Source="Loose" Target="Continue?" Bounds="578.133863824723,150.207320603434,0.320302554694081,21.2810753360269" />
+    <Link Source="MainTimer" Target="@10" Bounds="400.036196289062,80.76877919709,23.227636443786,0.285004605456521" />
+    <Link Source="MainViw_Initialized" Target="Background" Bounds="347.176397196452,169.784692561841,24.5152636812336,0.40674822813466" />
+    <Link Source="MainViw_Initialized" Target="MainTimer" Bounds="295.337266195543,101.197983773173,48.9741157653742,54.5532784338584" />
+    <Link Source="MainViw_Initialized" Target="Op" Bounds="283.934639471826,181.711262207031,0.51414383862658,26.7040745755765" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="Категория 1" Background="#FFFF7F7F" IsTag="True" />
+    <Category Id="Category2" Label="Категория 2" Background="#FF7DC633" IsTag="True" />
+    <Category Id="Category3" Label="Категория 3" Background="#FF7FC9FF" IsTag="True" />
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Member" Label="Член" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Члены" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Методы" />
+    <Category Id="CodeSchema_Namespace" Label="Пространство имен" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Пространства имен" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Типы" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Фон" Description="Цвет фона" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Является Private" Description="Флаг, указывающий на область видимости Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Language" Label="Язык" Description="Язык" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="2" Id="Namespace=tetrisWPF" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPathUri)" />
+    <Alias n="5" Id="Type=mainView" />
+    <Alias n="6" Id="(@4 @2 @5)" />
+    <Alias n="8" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll" />
+    <Alias n="9" Id="OverloadingParameters=[(@8 Namespace=System Type=Object),(@8 Namespace=System Type=EventArgs)]" />
+    <Alias n="10" Id="(@4 @2 @5 Member=(Name=encreaseStep @9))" />
+    <Alias n="12" Id="(@4 @2 @5 Member=gameReload)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Категория 5" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FFA17FFF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 9" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category9')" />
+      <Setter Property="Background" Value="#FF004A7F" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 3" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FF7FC9FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 1" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFFF7F7F" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 2" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF7DC633" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPath" Value="C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF\tetrisWPF\bin\Debug\tetrisWPF.exe" />
+    <Path Id="ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPathUri" Value="file:///C:/Users/Core/documents/visual studio 2012/Projects/tetrisWPF/tetrisWPF/bin/Debug/tetrisWPF.exe" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="VsSolution" Value="C:\Users\Core\documents\visual studio 2012\Projects\tetrisWPF" />
+  </Paths>
+</DirectedGraph>

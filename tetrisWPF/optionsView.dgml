@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@4 @2 @5 Member=(Name=closeOptButton_Click OverloadingParameters=[@8,(@7 Namespace=System Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="287.038083496094,272.485224104818,153.37,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="closeOptButton_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@4 @2 @5 Member=(Name=getParent OverloadingParameters=[(@4 @2 Type=mainView)]))" Category="CodeSchema_Method" Bounds="177.078240115304,215.57869760606,92.5433333333332,26" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Public" Label="getParent" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="453.535145263672,216.485124104818,200.04,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="speedTrackBar_ValueChanged" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="395.916676635742,-16.8594807220459,124.26,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="blackFone_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="437.547233479818,153.40541984965,119.713333333333,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="blueFone_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="400.736841430664,41.4052198496501,127.27,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="greenFone_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="427.651659749349,97.4053198496501,114.203333333333,26" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Метод" Icon="Microsoft.VisualStudio.Method.Private" Label="redFone_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="187.268794359423,-1.93518997187708,91.3733333333333,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="tetrisWPF" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="225.260705052857,104.936078339636,106.28,26" CodeSchemaProperty_IsPublic="True" Icon="Microsoft.VisualStudio.Class.Public" Label="optionsView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+      <Category Ref="Category8" />
+    </Node>
+    <Node Id="ChangeFoneColor" Bounds="654.202030428989,1.67217514245722,113.1,25.96" Label="changeFoneColor" UseManualLocation="True" />
+    <Node Id="MainView" Category="Category3" Bounds="634.234350585938,78.7165054595947,71.4499999999998,25.96" Label="mainView" UseManualLocation="True" />
+    <Node Id="TimerSpeed" Bounds="661.454302164714,160.525024104818,80.8066666666666,25.96" Label="timerSpeed" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="MainView" Bounds="564.537580617968,111.5515537788,88.6481655846939,104.933570326017" />
+    <Link Source="@13" Target="MainView" Bounds="486.876527019945,9.14052009582519,146.092864985561,65.8764169602824" />
+    <Link Source="@14" Target="MainView" Bounds="527.43004215054,108.252342250727,104.29022348762,45.1530837746636" />
+    <Link Source="@15" Target="MainView" Bounds="527.620525207715,65.8778290599773,97.7583278155345,17.7322710408088" />
+    <Link Source="@16" Target="MainView" Bounds="541.854993082682,96.2098528174911,83.4249282870165,8.42727148201911" />
+    <Link Source="@3" Target="@6" Category="Contains" Bounds="238.483508430999,24.0648040771484,30.8672603458053,72.5889918849173" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=closeOptButton_Click OverloadingParameters=[@8,(@7 Namespace=System Type=EventArgs)]))" Category="Contains" Bounds="285.020803652553,130.936080932617,67.9981037429026,133.529151781776" />
+    <Link Source="@6" Target="(@4 @2 @5 Member=(Name=getParent OverloadingParameters=[(@4 @2 Type=mainView)]))" Category="Contains" Bounds="233.827284330837,130.936080932617,38.1052110503682,76.5849143391595" />
+    <Link Source="@6" Target="@10" Category="Contains" Bounds="310.467392609957,130.936080932617,202.680417142865,82.1676985414618" />
+    <Link Source="@6" Target="@13" Category="Contains" Bounds="297.575445643039,14.1909927243461,133.847152395929,90.7450882082711" />
+    <Link Source="@6" Target="@14" Category="Contains" Bounds="331.045402961553,129.587298203646,99.6738053370942,22.0596060164049" />
+    <Link Source="@6" Target="@15" Category="Contains" Bounds="316.455046442605,70.3146843794071,101.345710451146,34.6213965532101" />
+    <Link Source="@6" Target="@16" Category="Contains" Bounds="331.54071105957,112.817456804988,87.1169360687628,3.17929981493438" />
+    <Link Source="MainView" Target="ChangeFoneColor" Bounds="676.831874851702,35.5860739139113,22.8362782826889,43.1304249569383" />
+    <Link Source="MainView" Target="TimerSpeed" Bounds="675.020433608459,104.67649887085,18.5066376981569,47.4633900003449" />
+  </Links>
+  <Categories>
+    <Category Id="Category3" Label="Категория 3" Background="#FF7FC9FF" IsTag="True" />
+    <Category Id="Category8" Label="Категория 8" Background="#FF008080" IsTag="True" />
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Member" Label="Член" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Члены" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Методы" />
+    <Category Id="CodeSchema_Namespace" Label="Пространство имен" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Пространства имен" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Типы" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Фон" Description="Цвет фона" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Является Private" Description="Флаг, указывающий на область видимости Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Language" Label="Язык" Description="Язык" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Универсальные аргументы" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" />
+    <Name Id="GenericParameterCount" Label="Число универсальных параметров" ValueType="System.String" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="2" Id="Namespace=tetrisWPF" />
+    <Alias n="3" Id="(@2)" />
+    <Alias n="4" Uri="Assembly=$(ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPathUri)" />
+    <Alias n="5" Id="Type=optionsView" />
+    <Alias n="6" Id="(@4 @2 @5)" />
+    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/mscorlib.dll" />
+    <Alias n="8" Id="(@7 Namespace=System Type=Object)" />
+    <Alias n="9" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/PresentationFramework.dll" />
+    <Alias n="10" Id="(@4 @2 @5 Member=(Name=speedTrackBar_ValueChanged OverloadingParameters=[@8,(@9 Namespace=System.Windows Type=(Name=RoutedPropertyChangedEventArgs GenericParameterCount=1 GenericArguments=[(@7 Namespace=System Type=Double)]))]))" />
+    <Alias n="11" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5.1/PresentationCore.dll" />
+    <Alias n="12" Id="OverloadingParameters=[@8,(@11 Namespace=System.Windows Type=RoutedEventArgs)]" />
+    <Alias n="13" Id="(@4 @2 @5 Member=(Name=blackFone_Click @12))" />
+    <Alias n="14" Id="(@4 @2 @5 Member=(Name=blueFone_Click @12))" />
+    <Alias n="15" Id="(@4 @2 @5 Member=(Name=greenFone_Click @12))" />
+    <Alias n="16" Id="(@4 @2 @5 Member=(Name=redFone_Click @12))" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Категория 8" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category8')" />
+      <Setter Property="Background" Value="#FF008080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 10" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category10')" />
+      <Setter Property="Background" Value="#FF7F006E" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 5" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FFA17FFF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 1" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFFF7F7F" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Категория 3" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FF7FC9FF" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="ca27e7da-9e11-4bb1-ac13-734cc0bca31f.OutputPathUri" Value="file:///C:/Users/Core/documents/visual studio 2012/Projects/tetrisWPF/tetrisWPF/bin/Debug/tetrisWPF.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>
